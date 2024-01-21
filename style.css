@@ -57,14 +57,24 @@ body{
 }
 
 
+.mynavbar{
+
+}
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title{
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+}
+
+.mynavbar .nav-link{
+  font-weight: 600;
+}
+
 /* media Query */
 /* laptop */
 @media (max-width: 992px) {
   html{
     font-size: 75%;
-  }
-  .simply-countdown>.simply-section{
-    padding: 60px;
   }
 }
 
@@ -73,9 +83,11 @@ body{
   html{
     font-size: 65%;
   }
-  .simply-countdown>.simply-section{
-    padding: 50px;
-    margin: 5px;
+
+  .mynavbar .nav-link{
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
   }
 }
 
@@ -83,9 +95,5 @@ body{
 @media (max-width: 576px) {
   html{
     font-size: 60%;
-  }
-  .simply-countdown>.simply-section{
-    padding: 40px;
-    margin: 3px;
   }
 }
