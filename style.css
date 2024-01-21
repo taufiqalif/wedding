@@ -9,6 +9,7 @@ body{
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
   /* font-style: var(--text); */
+  min-height: 4000px;
 }
 
 .hero::before{
@@ -21,6 +22,8 @@ body{
   background-image: url(img/04.jpg);
   z-index: -1 ;
   filter: opacity(0.9);
+  background-size: cover;
+  background-position: center;
 }
 
 .hero{
@@ -39,7 +42,7 @@ body{
 
 .hero h1{
   font-family: "Great Vibes", cursive;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 .hero a{
@@ -54,14 +57,14 @@ body{
 }
 
 
-/* mediaQuery */
+/* media Query */
 /* laptop */
 @media (max-width: 992px) {
   html{
     font-size: 75%;
   }
   .simply-countdown>.simply-section{
-    padding: 70px;
+    padding: 60px;
   }
 }
 
@@ -71,7 +74,7 @@ body{
     font-size: 65%;
   }
   .simply-countdown>.simply-section{
-    padding: 60px;
+    padding: 50px;
     margin: 5px;
   }
 }
@@ -82,19 +85,7 @@ body{
     font-size: 60%;
   }
   .simply-countdown>.simply-section{
-    padding: 45px;
+    padding: 40px;
     margin: 3px;
-  }
-}
-
-
-/* lite phone */
-@media (max-width: 400px) {
-  html{
-    font-size: 45%;
-  }
-  .simply-countdown>.simply-section{
-    padding: 20px;
-    margin: 1px;
   }
 }
