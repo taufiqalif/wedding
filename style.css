@@ -9,7 +9,7 @@ body{
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
   /* font-style: var(--text); */
-  min-height: 4000px;
+  /* min-height: 4000px; */
 }
 
 .hero::before{
@@ -58,16 +58,27 @@ body{
 
 
 .mynavbar{
-
+  background-color: rgba(255, 255, 255, 0.4) !important;
 }
 
 .mynavbar .navbar-brand, .mynavbar .offcanvas-title{
   font-family: "Great Vibes", cursive;
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .mynavbar .nav-link{
   font-weight: 600;
+}
+
+
+.home{
+  background-image: url(img/09.png);
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
 }
 
 /* media Query */
