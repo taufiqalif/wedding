@@ -179,6 +179,10 @@ body{
     font-size: 65%;
   }
 
+  .sticky-top{
+    overflow: hidden;
+  }
+
   .mynavbar .nav-link{
     font-weight: 600;
     text-align: center;

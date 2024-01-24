@@ -194,6 +194,21 @@
       countUp: false, // enable count up if set to true
     });
   </script>
+
+  <script>
+    const hamburger = document.querySelector('.navbar-toggler');
+    const stickyTop = document.querySelector('.sticky-top');
+
+    hamburger.addEventListener('click', function () {
+      stickyTop.style.overflow = 'visible';
+    });
+
+    const btnClose = document.querySelector('.btn-close');
+
+    btnClose.addEventListener('click', function () {
+      stickyTop.style.overflow = 'hidden';
+    });
+  </script>
 </body>
 
 </html>
