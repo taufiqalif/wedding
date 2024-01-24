@@ -203,9 +203,9 @@
       stickyTop.style.overflow = 'visible';
     });
 
-    const btnClose = document.querySelector('.btn-close');
+    const offcanvas = document.querySelector('.offcanvas');
 
-    btnClose.addEventListener('click', function () {
+    offcanvas.addEventListener('hidden.bs.offcanvas', function () {
       stickyTop.style.overflow = 'hidden';
     });
   </script>
